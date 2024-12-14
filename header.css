@@ -1,0 +1,39 @@
+header section{
+    height: 58px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    z-index: 100;
+    background-color: white;
+}
+
+header section .logo{
+    margin: 0 10px 0 90px;
+    font-size: 24px;
+}
+
+header section .header-context{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 23px;
+}
+
+header section .icon{
+    font-size: 30px;
+    flex: 1;
+    margin: 0 90px 0 90px;
+    text-align: end;
+}
+
+.icon i, .logo, .header-context p{
+    cursor: pointer;
+}
+
+header section .header-context:hover p{
+    color: grey;
+}
+

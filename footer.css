@@ -1,0 +1,101 @@
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+
+.footer-context {
+    font-size: 18px;
+    padding: 80px 0 100px 100px;
+    white-space: nowrap;
+}
+
+.footer-context p {
+    cursor: pointer;
+}
+
+.footer-aside {
+    width: 450px;
+    padding:80px 0 80px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-context div,
+.footer-aside div {
+    padding-bottom: 30px;
+}
+
+.footer-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input input {
+    font-size: 16px;
+    padding: 16px 20px;
+    border-radius: 14px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white
+}
+
+.footer-check {
+    display: flex;
+}
+
+.footer-check input {
+    height: 25px;
+    width: 25px;
+    margin-right: 12px;
+}
+
+.footer-foot {
+   display: grid;
+   grid-template-columns: 5fr 1fr 1fr;
+   background-color: black;
+   border-top: 1px solid white;
+   padding-top: 18px;
+   padding-bottom: 40px;
+}
+
+.footer-foot .left-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-foot .left-section p {
+    cursor: pointer;
+}
+
+.footer-foot .middle-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-section-icons{
+    width: 24px;
+    height: 22px;
+    border-radius: 16px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-section-icons i{
+    color: black;
+}
+
+.footer-foot .right-section{
+    color: white;
+    text-align: center;
+}
+
+.footer-foot .right-section a{
+    color: white;
+}
